@@ -1,0 +1,139 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  * {
+    box-sizing: inherit;
+  }
+  
+  /* adjust typography defaults */
+  body {
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+  html, body {
+    height: 100%
+  }
+  header {
+    height: 10vh;
+    width: 100%;
+    border: 2px solid gray;
+  }
+  
+  .header-L {
+    height: 100%;
+    width: 20%;
+    border: 2px solid lightgreen;
+    float: left;
+}
+
+.header-M {
+    height: 100%;
+    width: 60%;
+    border: 2px solid lightgreen;
+    float: left;
+}
+
+.header-R {
+    height: 100%;
+    width: 20%;
+    border: 2px solid purple;
+    float: right;
+}
+
+
+  /* images and videos max out at full width */
+  img,
+  video {
+    max-width: 100%;
+  }
+
+  h1 {
+    color: white;
+    font-size: 3rem;
+  }
+
+  .hero {
+    height: 60vh;
+    width: 100%;
+    border: 2px solid black;
+  }
+
+  .other-content {
+    height: 60vh;
+    width: 100%;
+    border: 2px solid red;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+
+  .hero-main {
+    height: 100%;
+    width: 50%;
+    border: 2px solid blue;
+    float: left;
+    background-image: url(images/mountain.avif);
+    background-size: cover;
+    background-position: center;
+    padding-top: 150px;
+  }
+  .hero-content {
+    height: 100%;
+    width: 50%;
+    border: 2px solid blue;
+    float: left;
+  }
+
+  .gallery {
+    height: 50%;
+    width: 50%;
+    border: 2px solid green;
+    float: left;
+  }
+
+  .left {
+    height: 100%;
+    width: 33.33%;
+    border: 2px solid purple;
+    float: left;
+  }
+
+.middle {
+    height: 100%;
+    width: 33.33%;
+    border: 2px solid teal;
+    float: left;
+  }
+
+  .right {
+    height: 100%;
+    width: 33.33%;
+    border: 2px solid teal;
+    float: right;
+  }
+
+  .gallery-small {
+    height: 33.33%;
+    width: 96%;
+    border: 2px solid teal;
+    margin: 2%;
+  }
+
+  .gallery-large {
+    height: 62.660%;
+    width: 96%;
+    border: 2px solid orange;
+    overflow: hidden;
+    margin: 2%;
+  }
+
+.third-bucket {
+    height: 80vh;
+    width: 100%;
+    border: 2px solid gold;
+}
+
